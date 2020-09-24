@@ -7,6 +7,8 @@ import imgp1 from "./img/imgp1.png";
 import imgp2 from "./img/imgp2.png";
 import imgp3 from "./img/imgp3.png";
 import imgp4 from "./img/imgp4.png";
+import expancionpng from "./img/expancion.png";
+
 
 export const App = () => {
   return (
@@ -80,10 +82,14 @@ export const App = () => {
           <div className="linea">
           </div>
           <div className="content-card2">
-          <div className="card-body2">
+            <div className="card-body2">
               <img src={imgp1} className="imgp" />
               <div className="padi2">
                 <h5 className="title-card2">EXPERIENCED ADVISER</h5>
+              </div>
+              <div className="oculto">
+                <p className="textone">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <button className="buttonone" >READ MORE</button>
               </div>
             </div>
             <div className="card-body2">
@@ -91,11 +97,19 @@ export const App = () => {
               <div className="padi2">
                 <h5 className="title-card2">GREAT IDEAS</h5>
               </div>
+              <div className="oculto">
+                <p className="textone">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <button className="buttonone" >READ MORE</button>
+              </div>
             </div>
             <div className="card-body2">
               <img src={imgp3} className="imgp" />
               <div className="padi2">
                 <h5 className="title-card2">WORLDWIDE SYSTEM</h5>
+              </div>
+              <div className="oculto">
+                <p className="textone">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <button className="buttonone" >READ MORE</button>
               </div>
             </div>
             <div className="card-body2">
@@ -103,16 +117,77 @@ export const App = () => {
               <div className="padi2">
                 <h5 className="title-card2">SECURITY INFORMATION</h5>
               </div>
+              <div className="oculto">
+                <p className="textone">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+                <button className="buttonone" >READ MORE</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section className="section5">
         <div className="sect5">
-
+          <div className="contect1">
+            <h2 className="title4">Request A Call Back</h2>
+            <div className="linea2">
+            </div>
+            <p className="parra">Leave your information and email address. We will call back and advise you.</p>
+          </div>
+          <div className="contect2">
+            <input type="text" className="boxi" placeholder="Your Name"></input>
+            <input type="number" className="boxi" placeholder="Phone Number"></input>
+            <select className="form-control" id="exampleFormControlSelect1" placeholder="Subject">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <button className="buttonsect3">SUBMIT</button>
+          </div>
         </div>
       </section>
-
+      <section className="section6">
+        <div className="sect6">
+          <h2 className="title3">Featured Proyects</h2>
+          <div className="linea">
+          </div>
+          <div className="content-card6">
+            <div className="card-imagen">
+              <div className="content-text6">
+                <h5 className="title-cardt">System Expancion</h5>
+                <div className="oculto2">
+                  <p className="textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <button className="buttonone" >READ MORE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section7">
+        <div className="sect7">
+          <div className="contectsect7">
+            <h1 className="hisect7">450</h1>
+            <p className="psect7">PROYECTS</p>
+          </div>
+          <div className="contectsect7">
+            <h1 className="hisect7">205</h1>
+            <p className="psect7">ADVISOR</p>
+          </div>
+          <div className="contectsect7">
+            <h1 className="hisect7">95%</h1>
+            <p className="psect7">SATISFACTION RATE</p>
+          </div>
+        </div>
+      </section>
+      <section className="section8">
+        <div className="sect8">
+          <h2 className="title3">Latest From News</h2>
+          <div className="linea">
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
