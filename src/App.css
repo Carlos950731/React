@@ -3,7 +3,7 @@ header {
   height: 40px;
   background: #05233b;
 }
-/*primera seccion*/
+/*SECCION 1*/
 .section1 {
   width: 100%;
   display: flex;
@@ -23,7 +23,7 @@ header {
   margin: 0 50px;
   padding: 20px;
 }
-/*segunda seccion*/
+/*SECCION 2*/
 
 .title2 {
   display: flex;
@@ -57,7 +57,7 @@ button.buttonsect2 {
   color: white;
   border-color: #16a086;
 }
-/*seccion 3*/
+/*SECCION 3*/
 .sect3 {
   display: flex;
   flex-direction: column;
@@ -95,7 +95,7 @@ button.buttonsect2 {
 .padi {
   padding: 20px;
 }
-/*seccion 4*/
+/*SECCION 4*/
 .oculto {
   display: none;
   flex-direction: column;
@@ -111,6 +111,7 @@ button.buttonsect2 {
   border-color: whitesmoke;
   color: #635b5b;
   margin-top: 15px;
+  cursor: pointer;
 }
 .title-card2 {
   margin: 0;
@@ -161,7 +162,7 @@ button.buttonsect2 {
   padding: 20px;
   padding-bottom: 0;
 }
-/*seccion 5*/
+/*SECCION 5*/
 .sect5 {
   background:#05233b;
   display: flex;
@@ -213,13 +214,12 @@ button.buttonsect3 {
 width: 180px;
 height: 46px;
 }
-/*seccion 6 */
+/*SECCION 6 */
 .sect6 { 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .oculto2 {
   display: none;
   flex-direction: column;
@@ -229,6 +229,7 @@ height: 46px;
 }
 .content-text6:hover > .oculto2{
   display: flex;
+  height: 100%;
 }
 .title-cardt {
   margin: 0;
@@ -252,7 +253,11 @@ height: 46px;
   flex-direction: column;
   padding: 10px 10px;
   justify-content: center;
-  
+  transition: .5s; 
+}
+.content-text6:hover {
+  height: 100%;
+  padding: 30px;
 }
 .content-card6 {
   display: flex;
@@ -260,9 +265,22 @@ height: 46px;
   margin-bottom: 40px;
   width: 250px;
   height: 200px;
-  background-image: url(/static/media/expancion.69b7a973.png);
   background-size: cover;
   align-items: flex-end;
+}
+.contenedorcard6 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.card-1 {
+  background-image: url("./img/expancion.png");
+}
+.card-2 {
+  background-image: url("./img/training.jpg");
+}
+.card-3 {
+  background-image: url("./img/business.jpg");
 }
 /*SECCION 7*/
 .sect7 {
@@ -299,5 +317,148 @@ height: 46px;
   background: #f5f5f5;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
+.card-body8 {
+  flex: 1 1 auto;
+    min-height: 1px;
+    background: #ffffff;
+    width: 300px;
+    margin: 20px;
+}
+.imgcard8 {
+  width: 300px;
+  height: auto;
+}
+.button8 {
+  width: 100px;
+  height: 30px;
+  font-size: 11px;
+  background: #16a086;
+  border-color: #16a086;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.button8:hover {
+  transform: scale(1.1);
+}
+.text-card8 {
+  margin-top: 0;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+.title-card8 {
+  color: #000000;
+  margin: 0;
+}
+.contentcard8 {
+  display: flex;
+  margin-top: 20px;
+}
+.padi8 {
+  padding: 20px;
+}
+.contenttext8 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lineav {
+  background-color: #e5e5e5;
+  height: 20px;
+  width: 2px
+}
+/*SECCION 9*/
 
+.sect9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.App {
+  height: 100%;
+}
+.logossect9 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.imglogo {
+  width: 100px;
+  height: 100px;
+  margin: 0px 10px;
+}
+/*SECCION  10*/
+.section10 {
+  background: #05233b;
+}
+.title10 {
+  color: #ffffff;
+}
+.linea10 {
+  height: 2px;
+  width: 50px;
+  background-color: #ffffff;
+  margin-top: -15px;
+}
+.sect10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/*SECCION 11*/
+.sect11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputcorreo {
+  justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.inputemail {
+  width: 320px;
+  height: 36px;
+  border: 1px solid #16a086;
+}
+.button11 {
+  width: 100px;
+  height: 40px;
+  background: #16A085;
+  color: #ffffff;
+  border: 1px solid #16A085;
+  cursor: pointer;
+}
+/*SECCION 12*/
+.section12 {
+  background: #16344c;
+}
+.sect12 {
+  display: flex;
+  align-items: center;
+}
+.title12 {
+  color: #ffffff;
+}
+.parra12 {
+  color: #ffffff;
+}
+.conttitleone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}
+.contcontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+}

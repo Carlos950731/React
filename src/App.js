@@ -8,7 +8,16 @@ import imgp2 from "./img/imgp2.png";
 import imgp3 from "./img/imgp3.png";
 import imgp4 from "./img/imgp4.png";
 import expancionpng from "./img/expancion.png";
-
+import trainingjpg from "./img/training.jpg";
+import businessjpgg from "./img/business.jpg";
+import logo1 from "./img/logo1.PNG";
+import logo2 from "./img/logo2.PNG";
+import logo3 from "./img/logo3.PNG";
+import logo4 from "./img/logo4.PNG";
+import logo5 from "./img/logo5.PNG";
+import latest1 from "./img/latest1.PNG";
+import latest2 from "./img/latest2.PNG";
+import latest3 from "./img/latest3.PNG";
 
 export const App = () => {
   return (
@@ -152,13 +161,37 @@ export const App = () => {
           <h2 className="title3">Featured Proyects</h2>
           <div className="linea">
           </div>
-          <div className="content-card6">
-            <div className="card-imagen">
-              <div className="content-text6">
-                <h5 className="title-cardt">System Expancion</h5>
-                <div className="oculto2">
-                  <p className="textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                  <button className="buttonone" >READ MORE</button>
+          <div className="contenedorcard6">
+            <div className="content-card6 card-1">
+              <div className="card-imagen">
+                <div className="content-text6">
+                  <h5 className="title-cardt">System Expancion</h5>
+                  <div className="oculto2">
+                    <p className="textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button className="buttonone" >READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-card6 card-2">
+              <div className="card-imagen">
+                <div className="content-text6">
+                  <h5 className="title-cardt">Training Skill</h5>
+                  <div className="oculto2">
+                    <p className="textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button className="buttonone" >READ MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="content-card6 card-3">
+              <div className="card-imagen">
+                <div className="content-text6">
+                  <h5 className="title-cardt">Business Consulting</h5>
+                  <div className="oculto2">
+                    <p className="textone">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <button className="buttonone" >READ MORE</button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -184,7 +217,108 @@ export const App = () => {
       <section className="section8">
         <div className="sect8">
           <h2 className="title3">Latest From News</h2>
+          <div className="linea"></div>
+          <div className="contentcard8">
+            <div className="card-body8">
+              <img src={latest1} className="imgcard8" />
+              <div className="padi8">
+                <h5 className="title-card8">Recruiting Managerial Staff</h5>
+                <div className="contenttext8">
+                  <p className="textp8">Nov 10, 2017</p>
+                  <div className="lineav"></div>
+                  <p className="textp81">Admin</p>
+                </div>
+                <p className="text-card8">To take trivial example, which of us ever und takes laborious physical exercise, except to obtain some advantage from it.</p>
+                <button className="button8" >READ MORE</button>
+              </div>
+            </div>
+            <div className="card-body8">
+              <img src={latest2} className="imgcard8" />
+              <div className="padi8">
+                <h5 className="title-card8">Construction Investment Plan</h5>
+                <div className="contenttext8">
+                  <p className="textp8">Nov 22, 2017</p>
+                  <div className="lineav"></div>
+                  <p className="textp81">Admin</p>
+                </div>
+                <p className="text-card8">To take trivial example, which of us ever und takes laborious physical exercise, except to obtain some advantage from it.</p>
+                <button className="button8" >READ MORE</button>
+              </div>
+            </div>
+            <div className="card-body8">
+              <img src={latest3} className="imgcard8" />
+              <div className="padi8">
+                <h5 className="title-card8">System Security Upgrade</h5>
+                <div className="contenttext8">
+                  <p className="textp8">Nov 30, 2017</p>
+                  <div className="lineav"></div>
+                  <p className="textp81">Admin</p>
+                </div>
+                <p className="text-card8">To take trivial example, which of us ever und takes laborious physical exercise, except to obtain some advantage from it.</p>
+                <button className="button8" >READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section9">
+        <div className="sect9">
+          <h2 className="title3">Business Partners</h2>
           <div className="linea">
+          </div>
+          <div className="logossect9">
+            <img src={logo1} className="imglogo" />
+            <img src={logo2} className="imglogo" />
+            <img src={logo3} className="imglogo" />
+            <img src={logo4} className="imglogo" />
+            <img src={logo5} className="imglogo" />
+          </div>
+        </div>
+      </section>
+      <section className="section10">
+        <div className="sect10">
+          <h2 className="title10">Testimonials</h2>
+          <div className="linea10"></div>
+        </div>
+      </section>
+      <section className="section11">
+        <div className="sect11">
+          <h2 className="title3">Sign Up</h2>
+          <div className="linea"></div>
+          <p className="text11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua</p>
+          <div className="inputcorreo">
+            <input type="email" class="inputemail" placeholder="email@example.com"></input>
+            <button className="button11" >SUBSCRBE</button>
+          </div>
+        </div>
+      </section>
+      <section className="section12">
+        <div className="sect12">
+          <div className="conttitleone">
+            <h2 className="title12">ARGES</h2>
+            <p className="parra12">On the oder hand, we denounve with righteous indignation and dislike men who are so beguiled and demoralized the charms of pleasure of.</p>
+          </div>
+          <div className="contcontact">
+            <h3 className="title12">CONTACT US</h3>
+            <p className="parra12">379 5TH Ave New York, Nyc 10018</p>
+            <p className="parra12">contac@gmail.com</p>
+            <p className="parra12">(+1) 96 716 6879</p>
+            <p className="parra12">(+1) 96 716 6897</p>
+          </div>
+          <div className="contentcompany">
+            <h3 className="title12">COMPANY</h3>
+            <div className="contentparra">
+            <p className="parra12">Home</p>
+            <p className="parra12">Proyects</p>
+            <p className="parra12">Services</p>
+            <p className="parra12">About Us</p>
+            <p className="parra12">Contact</p>
+            <p className="parra12">Blogs</p>
+            <p className="parra12">404 Page</p>
+            <p className="parra12">Shop</p>
+            <p className="parra12">Elements</p>
+            <p className="parra12">Typography</p>
+            </div>
           </div>
         </div>
       </section>
