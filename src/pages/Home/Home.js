@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import {Link} from "react-router-dom";
+import {FacebookOutlined} from '@ant-design/icons';
 
 import '../../App.css';
 import img1 from "../../img/img1.PNG";
@@ -20,6 +22,12 @@ import logo5 from "../../img/logo5.PNG";
 import latest1 from "../../img/latest1.PNG";
 import latest2 from "../../img/latest2.PNG";
 import latest3 from "../../img/latest3.PNG";
+import item1 from "../../img/item1.jpg";
+import item2 from "../../img/item2.jpg";
+import item3 from "../../img/item3.jpg";
+import item4 from "../../img/item4.jpg";
+import item5 from "../../img/item5.jpg";
+import item6 from "../../img/item6.jpeg";
 
 import { Footer } from "../../components/Footer/Footer";
 
@@ -28,12 +36,12 @@ export const Home = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1
   };
-	return (
-		<div className="Home">
- <header className="App-header">
+  return (
+    <div className="Home">
+      <header className="App-header">
         <div className="content">
           <p className="a"></p>
           <div className="">
@@ -47,8 +55,8 @@ export const Home = () => {
           <h2 className="title" >ARGES</h2>
         </div>
         <nav className="menu">
-          <a className="menu-item">Home</a>
-          <a className="menu-item">About us</a>
+          <Link className="menu-item" to="/login">Home</Link>
+          <a className="menu-item"><FacebookOutlined /></a>
           <a className="menu-item">Services</a>
           <a className="menu-item">News</a>
           <a className="menu-item">Proyects</a>
@@ -288,29 +296,85 @@ export const Home = () => {
       </section>
       <section className="section10">
         <div className="sect10">
-          <h2 className="title10">Testimonials</h2>
-          <div className="linea10"></div>
+          <div className="contenttitle10">
+            <h2 className="title10">Testimonials</h2>
+            <div className="linea10"></div>
+          </div>
           <div className="carrusel">
-          <Slider {...settings}>
-          <div>
-            <h3>1</h3>
-          </div>
-          <div>
-            <h3>2</h3>
-          </div>
-          <div>
-            <h3>3</h3>
-          </div>
-          <div>
-            <h3>4</h3>
-          </div>
-          <div>
-            <h3>5</h3>
-          </div>
-          <div>
-            <h3>6</h3>
-          </div>
-        </Slider>
+            <Slider {...settings}>
+              <div className="item">
+                <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item1} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">JERRY ALEXANDER</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item2} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">MARIE CRAWFORD</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+              <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item3} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">SOPHIA BROWN</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+              <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item4} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">JAYDEN SMITH</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+              <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item5} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">MATTHEW DAVIES</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+              <div className="cartaitem">
+                  <div className="imgitem">
+                    <img src={item6} className="imgitem1" />
+                  </div>
+                  <div className="textitem">
+                    <h2 className="texth1">ISABELLA WILSON</h2>
+                    <span className="textspan">Wall Street Combany</span>
+                    <p className="textp">The point of using Lorem Ipsum is that it has a normal distribution of letters, as opposed to using Many desktop publis shingpackages and web page Ipsum.</p>
+                  </div>
+                </div>
+              </div>
+            </Slider>
           </div>
         </div>
       </section>
@@ -325,7 +389,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <Footer/>
-		</div>
-	)
+      <Footer />
+    </div>
+  )
 }
