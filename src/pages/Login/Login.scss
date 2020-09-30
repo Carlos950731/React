@@ -1,11 +1,137 @@
-.Login {
+.container-login {
+    width: 100%;
     display: flex;
-    margin: auto;
-    width: 50%;
-    max-width: 500px;
-    padding: 30px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    height: 100%;
+}
+.LoginP {
+    display: flex;
+    align-items: center;
+    height: 538px;
+    border: 1px solid #9a9595;
+    border-radius: 20px;
+    max-width: 1100px;
+    .Login {
+        display: flex;
+        margin: auto;
+        width: 50%;
+        max-width: 500px;
+        padding: 30px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        .titlelogin {
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+        .parralogin {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .titlelo {
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 20px;
+            color: #05233b;
+        }
+        .ant-btn-primary {
+            color: #fff;
+            background: #05233b;
+            border-color: #05233b;
+            border-radius: 20px;
+            width: 375px;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+            -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+        }
+        .ant-input {
+            border-radius: 20px;
+        }
+        .ant-input-affix-wrapper {
+           
+            border-radius: 20px;
+        }
+        .textlogin {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            p.loginp {
+                margin-right: 15px;
+            }
+            .plogin {
+                color: #05233b;
+                font-weight: 600;
+            }
+        }
+        .contlineas {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            .linealogin {
+                height: 1px;
+                width: 145px;
+                background-color: #b9b6b6;
+            }
+            .textlinea {
+                margin: 0px 15px 0px 15px;
+                font-size: 15px;
+            }
+        }
+        .contsocial {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            .textsocial {
+                margin-bottom: 20px;
+            }
+            .conticon {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                .iconposi {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background: #f0f7f0;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    margin: 0 10px;
+                    cursor: pointer;
     
+                    .anticon {
+                        color: #05233b; 
+                    }
+                }
+                
+            }
+            
+        }
+    }
+    .fondimg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(0deg, #05233bd1, #05233bcc),url("../../img/fondologin.jpg");
+        margin: auto;
+        width: 50%;
+        height: 100%;
+        max-width: 500px;
+        padding: 30px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        .titlefond {
+            font-weight: 600;
+            font-size: 35px;
+            margin-bottom: 20px;
+            color: #ffffff; 
+        }
+        .parrafond {
+            color: #ffffff;
+            text-align: center;
+        }
+    }
 }

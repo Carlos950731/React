@@ -1,0 +1,48 @@
+.Signup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    .container-signup {
+     display: flex;
+     align-items: center;
+     height: 585px;
+     border: 1px solid #9a9595;
+     border-radius: 20px;
+     max-width: 1400px;
+    }
+    .empresario-fond {
+      background: linear-gradient(0deg, #05233bd1, #05233bcc),url("../../img/empresario.jpg");
+      margin: auto;
+      width: 140%;
+      height: 100%;
+       max-width: 500px;
+      border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;   
+    }
+    .contenedor-formulario {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        .text-pp {
+            display: flex;
+            .text-p1 {
+              margin-right: 10px;
+            }
+            .text-p2 {
+            font-weight: 700;
+            }
+        }
+        .title-formu {
+            font-weight: 700;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .parra-formu {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+    }
+    
+}

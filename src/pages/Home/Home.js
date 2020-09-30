@@ -55,8 +55,8 @@ export const Home = () => {
           <h2 className="title" >ARGES</h2>
         </div>
         <nav className="menu">
-          <Link className="menu-item" to="/login">Home</Link>
-          <a className="menu-item"><FacebookOutlined /></a>
+          <Link className="menu-item" to="/login">Login</Link>
+          <Link className="menu-item" to="/signup">Sign Up</Link>
           <a className="menu-item">Services</a>
           <a className="menu-item">News</a>
           <a className="menu-item">Proyects</a>

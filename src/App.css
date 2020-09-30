@@ -13,15 +13,19 @@ header {
   display: flex;
   align-items: center;
   margin: 0 40px;
+  font-weight: 600;
 }
 .menu-item {
   margin: 0 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .title {
-  display: flex;
-  margin: 0 50px;
-  padding: 20px;
+    display: flex;
+    margin: 0 50px;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #05233b;
 }
 /*SECCION 2*/
 p.psect2 {
