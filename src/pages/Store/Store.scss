@@ -1,0 +1,46 @@
+.Store {
+    .content-store {
+        display: flex;
+        border-bottom: 1px solid #726f6f;
+        .parra-store {
+            color: #ffffff;
+            margin: 10px 0px 13px 90px;
+            font-weight: 500;
+        }
+    }
+    .content-busca {
+        display: flex;
+        background:#05233b;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 0 90px 0px 90px;
+        .search {
+            display: flex;
+            align-items: center;
+            .searchtext {
+                color: #9E9E9E;
+                margin-right: 10px;
+            }
+            .anticon {
+                color: white;
+                font-size: 20px;
+            }
+        }
+        .title-a {
+            color: white;
+            font-weight: 700;
+            font-size: 40px;
+        }
+        .content-icon {
+           display: flex;
+           .anticon {
+            font-size: 25px;
+            color: white;
+            margin: 0 0 0 10px;
+        }
+        }
+    }
+   
+    
+}

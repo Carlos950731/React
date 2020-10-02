@@ -39,6 +39,8 @@ export const Home = () => {
     slidesToShow: 2,
     slidesToScroll: 1
   };
+
+
   return (
     <div className="Home">
       <header className="App-header">
@@ -58,7 +60,7 @@ export const Home = () => {
           <Link className="menu-item" to="/login">Login</Link>
           <Link className="menu-item" to="/signup">Sign Up</Link>
           <a className="menu-item">Services</a>
-          <a className="menu-item">News</a>
+          <Link className="menu-item" to="/store">Store</Link>
           <a className="menu-item">Proyects</a>
           <a className="menu-item">Shop</a>
           <a className="menu-item">Contact us</a>
