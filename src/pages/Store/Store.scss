@@ -1,7 +1,7 @@
 .Store {
     .content-store {
         display: flex;
-        border-bottom: 1px solid #726f6f;
+        border-bottom: 1px solid #9E9E9E;;
         .parra-store {
             color: #ffffff;
             margin: 10px 0px 13px 90px;
@@ -25,6 +25,7 @@
             .anticon {
                 color: white;
                 font-size: 20px;
+                cursor: pointer;
             }
         }
         .title-a {
@@ -38,9 +39,29 @@
             font-size: 25px;
             color: white;
             margin: 0 0 0 10px;
+            cursor: pointer;
         }
         }
+        
     }
    
-    
+    .menu-search {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:#05233b;
+        height: 60px;
+        flex-direction: column;
+        .linea-search {
+            height: 1px;
+            width: 950px;
+            background-color: #9E9E9E;
+            margin-bottom: 10px;
+           }
+        .asearch {
+            color: #ffffff;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+    }
 }
