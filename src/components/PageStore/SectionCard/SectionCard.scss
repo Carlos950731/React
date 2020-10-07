@@ -1,0 +1,63 @@
+.SectionCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #efe8e8;
+    .contenedor-card {
+         display: flex;
+         justify-content: space-between;
+         padding: 30px;
+         max-width: 1000px;
+         width: 100%;
+         background: white;
+        .contend-background {
+            display: flex;
+            flex-direction: column;
+            width: 47%;
+            height: 200px;
+            padding: 30px;
+            border: 1px solid #efe8e8;
+            border-radius: 10px;
+              
+            .title-card {
+                font-weight: 500;
+                font-size: 20px;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+            .parra-card {
+                font-size: 30px;
+                color: #000000;
+            }
+            .parra-card2 {
+                font-size: 30px;
+                color: #000000;
+            }
+        }
+    }
+    .contenedor-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px;
+            max-width: 1000px;
+            width: 100%;
+            background: white;
+        .linea-card {
+            height: 2px;
+            width: 60px;
+            background-color:  #05233b;
+            margin-bottom: 15px;
+        }
+        .title-new {
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .parra-accu {
+            font-size: 20px;
+        }
+    }
+}

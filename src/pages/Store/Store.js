@@ -1,47 +1,27 @@
 import React from "react"
-import { SearchOutlined, TeamOutlined, HeartOutlined, RestOutlined, SettingOutlined } from '@ant-design/icons';
+import { Header } from "../../components/Header/Header";
+import { SectionCaroucel } from "../../components/PageStore/SectionCaroucel/SectionCaroucel";
+import { SectionCard } from "../../components/PageStore/SectionCard/SectionCard";
+import { SectionFotos } from "../../components/PageStore/SectionFotos/SectionFotos";
 
 export const Store = () => {
+	const dommyMenu = [
+		{ id: 1, name: "Home" },
+		{ id: 2, name: "Shop" },
+		{ id: 3, name: "Blog" },
+		{ id: 4, name: "Portafolio" },
+		{ id: 5, name: "Pages" },
+		{ id: 6, name: "Contact" }
+	]
 	return (
 		<div className="Store">
-			<header className="app-store">
-				<div className="content-store">
-					<p className="parra-store">Mid-season sale up to 20% OFF. Use code "SALEOFF20"</p>
-				</div>
-			</header>
-			<section className="section-one">
-				<div className="content-busca">
-					<div className="search">
-						<p className="searchtext">Search Products</p>
-						<SearchOutlined />
-					</div>
-					<h1 className="title-a">ARGES</h1>
-					<div className="content-icon">
-						<div className="icon-search"><TeamOutlined /></div>
-						<div className="icon-search"><HeartOutlined /></div>
-						<div className="icon-search"><RestOutlined /></div>
-						<div className="icon-search"><SettingOutlined /></div>
-					</div>
-				</div>
-
-				<div className="menu-search">
-					<div className="linea-search"></div>
-					<div className="menu-a">
-						<a className="asearch">Home</a>
-						<a className="asearch">Shop</a>
-						<a className="asearch">Blog</a>
-						<a className="asearch">Portfolio</a>
-						<a className="asearch">Pages</a>
-						<a className="asearch">Contact Us</a>
-					</div>
-				</div>
-			</section>
-			<section className="section-two">
-				<div className="content-fotos">
-					
-				</div>
-			</section>
-
+			<Header
+				dommyMenu={dommyMenu}
+				oferta='Mid-season sale up to 20% OFF. Use code "SALEOFF20"'
+			/>
+			<SectionCaroucel />
+			<SectionCard/>
+			<SectionFotos/>
 		</div>
 	)
 }
