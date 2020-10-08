@@ -1,0 +1,125 @@
+.SectionFooterStore {
+    
+    .contenedor-footerstore {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        background: #05233b;
+         color: white;
+        .cont-arges {
+            display: flex;
+            flex-direction: column;
+            width: 525px;
+            padding: 20px;
+            .title-arges {
+                font-size: 25px;
+              font-weight: 600;
+              margin-bottom: 20px;
+              color: white;
+            }
+            .parra-we {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            .parra-adres {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            .parra-phone {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+            .parra-email {
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+        }
+        .cont-customer {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            .title-customer {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 20px;
+                color: white;
+            }
+            .parra-cust {
+                font-size: 14px;
+             margin-bottom: 10px;
+}
+        }
+        .cont-infor {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            .title-infor {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 20px;
+                color: white;
+            }
+            .parra-infor {
+                font-size: 14px;
+             margin-bottom: 10px;
+}
+        }
+        .cont-join {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            .title-join {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 20px; 
+                color: white;  
+            }
+            .parra-join {
+                margin-bottom: 20px;
+                font-size: 14px;
+            }
+            .ant-input-group {
+                width: 100%;
+            }
+            .ant-input-group .ant-input {
+                border-top-left-radius: 50px;
+                border-bottom-color: 50px;
+                border-bottom-left-radius: 50px;
+                margin-bottom: 20px;
+            }
+            .ant-btn-primary {
+                color: #fff;
+                background: #05233b;
+                border-color: #05233b;
+                border-top-right-radius: 45px;
+                border-bottom-right-radius: 45px;
+                margin-bottom: 20px;
+            }
+            .ant-input-search-enter-button input + .ant-input-group-addon {
+                padding: 0;
+                border: 0;
+                border-radius: 50px;
+                background-color: #05233b;
+            }
+            .conte-icon {
+                display: flex;
+                 align-items: center;
+                 .content-iconjoin {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    background: #f0f7f0;
+                    color: #05233b;
+                    justify-content: center;
+                    margin: 0 10px;
+                    cursor: pointer;
+    
+                }
+            }
+           
+        }
+    }
+}

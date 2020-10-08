@@ -3,6 +3,8 @@ import { Header } from "../../components/Header/Header";
 import { SectionCaroucel } from "../../components/PageStore/SectionCaroucel/SectionCaroucel";
 import { SectionCard } from "../../components/PageStore/SectionCard/SectionCard";
 import { SectionFotos } from "../../components/PageStore/SectionFotos/SectionFotos";
+import {  SectionInsta } from "../../components/PageStore/SectionInsta/SectionInsta";
+import {  SectionFooterStore } from "../../components/PageStore/FooterStore/FooterStore";
 
 export const Store = () => {
 	const dommyMenu = [
@@ -22,6 +24,10 @@ export const Store = () => {
 			<SectionCaroucel />
 			<SectionCard/>
 			<SectionFotos/>
+			<SectionInsta/>
+			<SectionFooterStore/>
+		
+			
 		</div>
 	)
 }
