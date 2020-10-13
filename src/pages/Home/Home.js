@@ -63,7 +63,7 @@ export const Home = () => {
           <Link className="menu-item" to="/store">Store</Link>
           <a className="menu-item">Proyects</a>
           <a className="menu-item">Shop</a>
-          <a className="menu-item">Contact us</a>
+          <Link className="menu-item" to="/contactus">Contact us</Link>
         </nav>
       </section>
       <section className="section2">

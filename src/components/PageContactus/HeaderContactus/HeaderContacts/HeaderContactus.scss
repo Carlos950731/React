@@ -1,0 +1,86 @@
+.HeaderContactus {
+    .header-contact {
+        width: 100%;
+        display: flex;
+        background: #05233b;
+        color: #ffffff;
+        align-items: center;
+        padding: 13px;
+        justify-content: space-between;
+        .cont-phone {
+            display: flex;
+            align-items: center;
+            margin: 0px 0px 0px 100px;
+            .line-cont {
+                width: 1px;
+                height: 35px;
+                background: #b9b6b6;
+                margin: 10px;
+            }
+            .icon-contact {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                border: 1px solid #ffffff;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin: 0 10px;
+                cursor: pointer;
+            }
+            .phone {
+                font-size: 15px;
+                font-weight: 500;
+                margin: 10px;
+            }
+        }
+        .cont-login {
+            display: flex;
+            margin: 0 122px 0px 0px;
+            .lgn-text {
+                font-size: 15px;
+                font-weight: 500;
+                margin: 10px;
+            }
+            .line-conte {
+                width: 1px;
+                height: 20px;
+                background: #b9b6b6;
+                margin: 10px;
+            }
+        }
+    }
+    .sect-menu{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        .title-menu {
+            font-size: 30px;
+            font-weight: 600;
+            color:  #05233b;
+            margin: 0px 0px 0px 100px;
+         }
+         .contenedor-menu {
+            display: flex;
+            align-items: center;
+            margin: 0 100px 0px 0px;
+            .cont-menu {
+                display: flex;
+                align-items: center;
+                .text-menu {
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+                .line-conter {
+                    width: 2px;
+                     height: 20px;
+                       background: #9a9696;
+                       margin: 10px;
+                }
+            }
+        }
+    }
+    
+}

@@ -3,6 +3,7 @@ import { Home } from "./pages/Home/Home";
 import { Login } from "./pages/Login/Login";
 import { Signup } from "./pages/Signup/Signup";
 import { Store } from "./pages/Store/Store";
+import { Contactus } from "./pages/Contactus/Contactus";
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
@@ -16,6 +17,7 @@ export const App = () => {
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/store" component={Store} />
+        <Route path="/contactus" component={Contactus} />
       </Switch>
     </Router>
     </div>
