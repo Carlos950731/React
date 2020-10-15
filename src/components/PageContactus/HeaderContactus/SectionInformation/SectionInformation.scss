@@ -43,6 +43,9 @@
         .content-formulario {
             display: flex;
             padding: 30px;
+            justify-content: center;
+            margin-left: 150px;
+            margin-top: 50px;
             .content-info {
                 display: flex;
                 flex-direction: column;
@@ -53,6 +56,7 @@
                     width: 320px;
                     margin: 5px;
                     display: flex;
+                    align-items: center;
                     padding: 10px;
                     border-radius: 15px;
                     .icon-text {
@@ -82,6 +86,56 @@
                         }
                     }
                 }
+            }
+            .content-messege {
+                display: flex;
+                flex-direction: column;
+                background: #ffffff;
+                width: 800px;
+                padding: 30px;
+                border-radius: 15px;
+                margin-left: 20px;
+                .title-messege {
+                    font-size: 30px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                }
+                .parra-messege {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                .content-boxme {
+                    display: flex;
+                   align-items: center;
+                   flex-wrap: wrap;
+                   padding: 20px;
+                   .box-control {
+                    width: 300px;
+                    height: 45px;
+                    margin: 0px 40px 30px 0px;
+                    border: 1px solid #e0d8d8;
+                    border-radius: 10px;
+                   }
+                   .messege-control {
+                    border: 1px solid #e0d8d8;
+                    border-radius: 10px;
+                    width: 650px;
+                    height: 100px;
+                    margin-bottom: 20px;
+                   }
+                   .button-messege {
+                    width: 140px;
+                    height: 55px;
+                    font-size: 15px;
+                    font-weight: 500;
+                    background: #16a086;
+                    border-color: #16a086;
+                    color: white;
+                    cursor: pointer;
+                    border-radius: 10px;
+                   }
+                }
+
             }
         }
     }

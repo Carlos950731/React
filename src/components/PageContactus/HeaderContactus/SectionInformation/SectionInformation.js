@@ -50,6 +50,18 @@ export const Sectioninfo = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="content-messege">
+                        <h1 className="title-messege">Send Messege</h1>
+                        <p className="parra-messege">There are alteration in some many variations of passages of lorem ipsum availle suffer alteration in some form by injected.</p>
+                        <div className="content-boxme">
+                        <input type="text" className="box-control" placeholder="Your name"/>
+                        <input type="email" className="box-control" placeholder="Email address"/>
+                        <input type="number" className="box-control" placeholder="Phone number"/>
+                        <input type="text" className="box-control" placeholder="Subject"/>
+                        <input type="text" className="messege-control" placeholder="Messege"/>
+                        <button className="button-messege">Send Messege</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
