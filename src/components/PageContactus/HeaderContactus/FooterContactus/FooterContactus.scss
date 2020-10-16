@@ -1,0 +1,113 @@
+.FooterContactus {
+    .contenedor-footercontact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        background: #05233b;
+         color: white;
+        .cont-maps {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 410px;
+            padding: 20px;
+        .title-map {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px; 
+            color: white; 
+        }
+        .parra-map {
+            margin-bottom: 20px;
+            font-size: 14px;
+
+        }
+        .ant-input-group {
+            width: 100%;
+        }
+        .ant-input-group .ant-input {
+            border-top-left-radius: 50px;
+            border-bottom-color: 50px;
+            border-bottom-left-radius: 50px;
+            margin-bottom: 20px;
+        }
+        .ant-btn-primary {
+            color: #fff;
+            background: #16a086;
+            border-color: #16a086;
+            border-top-right-radius: 45px;
+            border-bottom-right-radius: 45px;
+            margin-bottom: 20px;
+        }
+        .ant-input-search-enter-button input + .ant-input-group-addon {
+            padding: 0;
+            border: 0;
+            border-radius: 50px;
+            background-color: #05233b;
+        }
+        .conte-icon {
+            display: flex;
+             align-items: center;
+             .content-iconjoin {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: #f0f7f0;
+                color: #05233b;
+                justify-content: center;
+                margin: 0 10px;
+                cursor: pointer;
+
+            }
+        }
+    }
+    .cont-links {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-left: 30px;
+        .title-links {
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 20px;
+            color: white;
+        }
+        .parra-links {
+            font-size: 14px;
+         margin-bottom: 10px;
+    }
+}
+.content-us {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+    .title-us {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .linea-us {
+        width: 230px;
+        height: 1px;
+        background: #b9b6b657;
+        margin: 10px;
+    }
+    .iconus {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding: 7px;
+        margin-left: 10px;
+        .anticon {
+            margin-right: 20PX;
+        }
+    }
+}
+}
+}
