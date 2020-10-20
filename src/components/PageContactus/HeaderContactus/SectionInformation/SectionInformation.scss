@@ -141,4 +141,66 @@
             }
         }
     }
+    @media (min-width: 992px) {  }
+    @media (max-width: 768px) {
+        .fond-info{
+            padding: 40px;
+            .title-info {
+                font-size: 30px;
+                font-weight: 800;
+            }
+            .parra-info {
+                font-size: 19px;
+                text-align: justify;
+            }
+        }
+        .sect-formulario{
+            .content-formulario {
+                display: flex;
+                padding: 10px;
+                justify-content: center;
+                margin-top: 0;
+                margin-left: 0;
+                flex-direction: column;
+                .content-messege {
+                 margin-left: 0px;
+                 width: auto;
+                 .parra-messege {
+                    font-size: 15px;
+                 margin-bottom: 0px;
+                } 
+                .content-boxme {
+                    .messege-control {
+                        width: 430px;
+                       
+                    }
+                }
+                
+                }
+                .content-info {
+                    display: flex;
+                    margin-bottom: 20px;
+                    flex-direction: unset;
+                    .content-cuadro {
+                        flex: 0 1 auto;
+                        width: auto;
+                        .cont-text {
+                          .title-text {
+                              display: none;
+                          }
+                          .pa-text {
+                              display: none;
+                          }
+                        }
+                    }
+                }
+            }
+        }
+    
+       
+         
+
+       
+     }
+    @media (max-width: 576px) {}
 }
