@@ -134,4 +134,38 @@
             text-align: center;
         }
     }
+    @media (max-width: 768px) { 
+            .Login {
+                padding: 15px;
+                .ant-input {
+                    width: 260px;
+                }
+                .ant-input-affix-wrapper {
+                    width: 260px;
+                }
+                .ant-btn-primary {
+                    width: 260px;
+                }
+                .contlineas .linealogin {
+                    width: 90px;
+                }
+                .parralogin {
+                    font-size: 14px;
+                }
+                .textlogin {
+                    .loginp {
+                        margin-right: 10px;
+                        font-size: 12px;
+                    }
+                    .plogin {
+                        font-size: 12px;
+                    }
+                } 
+            }
+            .fondimg {
+                .parrafond {
+                    font-size: 14px;
+                }
+            }
+        }
 }

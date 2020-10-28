@@ -110,4 +110,18 @@
     }
 }
 }
+@media (max-width: 768px) {
+    .contenedor-footercontact {
+        flex-direction: column;
+        .cont-links {
+            margin-bottom: 20px;
+           margin-left: 0px;
+        }
+        .content-us {
+            margin-left: 0px;
+        }
+    }
+}
+
+
 }
