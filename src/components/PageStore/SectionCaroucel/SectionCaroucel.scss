@@ -57,4 +57,27 @@
             }
        }
     }
+
+    @media (max-width: 768px) {
+        .contenedor-caroucel {
+            padding: 15px;
+            margin-top: -30px;
+            .algo {
+                padding: 25px;
+                height: 320px;
+                .content-buton {
+                    .button-price {
+                        height: 35px;
+                        font-size: 12px;
+                    }
+                    .titulo-carousel {
+                        font-size: 23px;
+                    }
+                } 
+                .titu-carosule {
+                    font-size: 35px;
+                }
+            }
+        }
+     }
 }

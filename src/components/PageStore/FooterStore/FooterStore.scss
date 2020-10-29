@@ -122,4 +122,15 @@
            
         }
     }
+    @media (max-width: 768px) {
+        .contenedor-footerstore {
+            flex-direction: column;
+            .cont-customer {
+                display: none;
+            }
+            .cont-infor {
+                display: none;
+            }
+        }
+    }
 }

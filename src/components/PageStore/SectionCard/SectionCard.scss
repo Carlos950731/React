@@ -61,4 +61,29 @@
             color: gray;
         }
     }
+    @media (max-width: 768px) {
+        .contenedor-card {
+            padding: 15px;
+            .contend-background {
+                padding: 25px;
+                .title-card {
+                    font-size: 20px;
+                }
+                .parra-card {
+                    font-size: 22px;
+                    margin-bottom: 10px;
+                }
+                .parra-card2 {
+                    font-size: 21px;
+                }
+            }
+        }
+        .contenedor-text {
+            padding: 20px;
+            .parra-accu {
+                text-align: center;
+            }
+        }
+        
+    }
 }

@@ -64,4 +64,42 @@
             margin: 0 10px;
         }
     }
+    @media (max-width: 768px) { 
+        .content-store {
+            .parra-store {
+                font-size: 12px;
+            }
+        }
+        .content-busca {
+            padding: 0px 35px 0px 35px;
+            height: 80px;
+            .search {
+                .searchtext {
+                    font-size: 12px;
+                }
+                .anticon {
+                    font-size: 15px;
+                }
+            }
+            .title-a {
+                font-size: 35px;
+            }
+            .content-icon {
+                .anticon {
+                 font-size: 20px;
+             }
+             }
+        }
+        .menu-search {
+            padding-bottom: 45px;
+            .linea-search {
+                width: 508px;  
+            }
+            .asearch {
+                font-size: 13px;
+            }
+        }
+
+     }
+
 }

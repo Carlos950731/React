@@ -96,8 +96,38 @@
        
     }
     @media (max-width: 768px) { 
-
-        
+        .empresario-fond {
+            width: 241px;
+        }
+        .container-signup {
+            max-width: 768px;
+        }
+        .contenedor-formulario { 
+            padding: 20px;
+            width: 290px;
+            .parra-formu {
+                font-size: 14px;
+            }
+            .text-pp { 
+                .text-p1 {
+                    font-size: 13px;
+                }
+                .text-p2 {
+                    font-size: 13px;
+                }
+            }
+            .ant-input {
+                width: 250px;
+            }
+            .ant-input-affix-wrapper {
+                width: 250px;
+            }
+            .ant-checkbox + span {
+                padding-right: 8px;
+                padding-left: 8px;
+                font-size: 12px;
+            }
+        }
     }
     
 }

@@ -42,5 +42,14 @@
             }
         }
     }
-    
+    @media (max-width: 768px) {
+      .contenedor-insta {
+         .cont-imginsta {
+            flex-wrap: wrap;
+            .img-insta {
+               margin-bottom: 10px;
+           }
+        }
+      }
+    }
 }

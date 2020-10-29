@@ -39,4 +39,28 @@
             font-size: 15px;
          }
     }
+    @media (max-width: 768px) {
+      .contenedor-fotos {
+         padding: 20px;
+         .card {
+            width: 195px;
+            margin: 15px 15px;
+        }
+        .sect-fotos {
+         width: 220px;
+         height: 220px;
+      }
+      .p-text {
+         font-size: 12px;
+         margin-bottom: 8px;
+     }
+      .parra-text {
+         font-size: 12px;
+         margin-bottom: 8px;
+     }
+     .parra-precio {
+      font-size: 12px;
+  }
+      }
+    }
 }
